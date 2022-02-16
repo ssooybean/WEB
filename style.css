@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI Light", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  color: #444444;
+}
+h1{
+	width: 255px;
+	margin: 0 46px 12px;
+	font-family: "Pixeloid Sans", serif;
+	text-align: center;
+	font-weight: normal;
+	font-size: 56px;
+	line-height: 64px;
+}
+h2 {
+  border-bottom: 2px solid #cccccc;
+  padding-bottom: 12px;
+}
+.container {
+  width: 510px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.site-header {
+  min-width: 550px;
+  height: 186px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+  background: #847462 no-repeat center url("shapka.png");
+  background-size: cover;
+  color: #ffffff;
+}
+.container p {
+  width: 400px;
+  margin: 0 50px 0px;
+  text-align: center;
+  font-size: 23px;
+  line-height: 24px; 
+}
+.site-header img {
+  display: block;
+  margin: 0 auto;
+}
+.svyz p{
+	text-align: right;
+	margin: 15px 200px 0;
+}
+.katalog {
+	text-align: center;
+	width: 1010px;
+	margin: 0 auto 30px;
+	padding: 0 20px;
+}
+
+.katalog p {
+  display: inline;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+}
+.tovar{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  text-align: center;
+}
+.tovar button{
+	font-family: "Segoe UI Light", sans-serif;
+	 display: inline-block;
+    background: #733962; /* цвет фона */
+    color: #f5b5e3; /* цвет текста */
+    padding: 0.5rem 1rem; /* Поля вокруг текста */
+    text-decoration: none;
+    border-radius: 11px; /* Скругляем уголки */
+}
+.site-footer {
+	position:fixed;
+	text-align: right;
+	left: 0; bottom: 0;
+	background: #847462 no-repeat center url("foot.png");
+	color: #fff; /* Цвет текста */
+    width: 100%;
+}
+.site-footer p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+}
+.page-tov{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0 70px 70px 10px;
+	max-width: 95%;
+}
+
